@@ -40,7 +40,9 @@ d3.csv("data.csv", type, function(error, data) {
     y.domain(d3.extent(data, function(d) {
         return d.Celsius;
     })).nice();
-
+    data.map(function(d) {
+        return d.City;
+    });
 
     svg.selectAll(".bar")
         .data(data)
@@ -83,7 +85,8 @@ d3.csv("data.csv", type, function(error, data) {
              //alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
             d3.select("#_yr")
                 .text("Date :   " + d.Year   +"     "  +d.Celsius + "°C" );
-
+            d3.select()
+                .text("City : " + d.City );
 
         });
 

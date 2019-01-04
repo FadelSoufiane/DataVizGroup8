@@ -82,7 +82,7 @@ d3.csv("data.csv", type, function(error, data) {
         .on("mouseover", function(d){
             // alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
             d3.select("#_yr")
-                .text("Date :\n " + d.Year);
+                .text("Date          : " + d.Year);
             d3.select("#degrree")
                 .text(d.Celsius + "°C");
         });

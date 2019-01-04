@@ -80,11 +80,8 @@ d3.csv("data.csv", type, function(error, data) {
             return Math.abs(y(d.Celsius) - y(0));
         })
         .on("mouseover", function(d){
-            // alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
-            d3.select("#_yr")
-                .text("Date : " + d.Year);nbsp &nbsp &nbsp
-            d3.select("#degrree")
-                .text(d.Celsius + "°C");
+             alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
+
         });
 
     svg.append("g")

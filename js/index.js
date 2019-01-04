@@ -82,7 +82,8 @@ d3.csv("data.csv", type, function(error, data) {
         .on("mouseover", function(d){
              //alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
             d3.select("#_yr")
-                .text("Date : " + d.Year &nbsp);
+                .text("Date :   " + d.Year +"  "  );
+            "  "
             d3.select("#degrree")
                 .text("      . "+d.Celsius + "°C");
         });
@@ -99,7 +100,7 @@ d3.csv("data.csv", type, function(error, data) {
 
     svg.append("g")
         .attr("class", "X axis")
-        .attr("transform", "translate(" + (margin.left - 6.5) + "," + height + ")")
+        .attr("transform", "translate(" + (margin.left - 3.5) + "," + height + ")")
         .call(xAxis);
 
     svg.append("g")

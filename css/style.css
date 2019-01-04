@@ -1,10 +1,23 @@
 body {
-   background-color: white; 
-   margin: 0 auto;
-   width: 75%;
-   font-family: Consolas, sans-serif;
-   font-size: 1.5em;
-   color: #454545;
-   font-weight: bold;
-   text-align: center;
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-size: 14px;
+}
+
+.bar {
+    border: 1px solid #0b3536;
+    border-radius: 6px;
+    fill: #0098d8;
+}
+
+#viz .barText {
+    fill: #f5faf8;
+    font-weight: 500;
+}
+
+.axisY text, .axisX text, .headerText text{
+    fill: #0b3536;
+}
+
+#viz svg {
+    background-color: #f5faf8;
 }

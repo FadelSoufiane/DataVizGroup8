@@ -11,13 +11,30 @@ body {
 
 #viz .barText {
     fill: #f5faf8;
+    margin: 20px;
+    background: #eeeeee;
+    padding: 30px;
+    font-size: small;
+    font-family: "Tahoma", Arial, sans-serif;
+    text-align: left;
     font-weight: 500;
 }
 
 .axisY text, .axisX text, .headerText text{
     fill: #0b3536;
+    margin: 20px;
+    background: #eeeeee;
+    padding: 30px;
+    font-size: small;
+    font-family: "Tahoma", Arial, sans-serif;
+    text-align: left;
 }
 
 #viz svg {
     background-color: #f5faf8;
+    margin: 20px;
+    padding: 30px;
+    font-size: small;
+    font-family: "Tahoma", Arial, sans-serif;
+    text-align: left;
 }

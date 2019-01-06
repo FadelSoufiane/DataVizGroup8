@@ -1,31 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" >
-
+<html >
 <head>
   <meta charset="UTF-8">
-  <title>Projet DataViz D3.js  Groupe 8 </title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+  <title>D3 - Heat Map</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<script src="https://use.fontawesome.com/da4fda81b5.js"></script>
 
-  <h1>Projet DataViz D3.js  Groupe 8 <h1>
-      <a href="barchart.html" >Bar chart </a>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script src='https://d3js.org/d3.v3.min.js'></script>
+<h1 id='title'>Global Warming Heat Map</h1>
 
-  
+<div id='graph-explain'>
+  <p>Climate change & global warming is one of the most debated political topics today</p>
+  <h4>But is the planet <b>really</b> warming up?</h4>
+  <p>Lets see what the facts have to say</p>
+</div>
 
-    <script  src="js/index.js"></script>
+<div id='root'></div>
 
+<div id='graph-explain-bottom'>
+  <p>This is a graph representing global average surface temperatures given in Celcius from the last 300 years.</p>
+</div>
 
-
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js'></script>
+<script src="index.js"></script>
 </body>
-
 </html>

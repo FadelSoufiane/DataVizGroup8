@@ -21,14 +21,14 @@ var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .2);
 
 //
-var xAxisScale = d3.scale.linear();
-//  .domain([1880, 2015])
-//  .range([ 0, width]);
+//var xAxisScale = d3.scale.linear();
+  //.domain([1880, 2015])
+  //.range([ 0, width]);
 
 var xAxis = d3.svg.axis()
-    .scale(xAxisScale)
+    .scale(x)
     .orient("bottom")
-    .tickFormat(d3.format("d"));
+    ;
 
 var yAxis = d3.svg.axis()
     .scale(y)

@@ -46,8 +46,8 @@ path {
 
     // Define the line
     var priceline = d3.line()
-        .x(function(d) { return x(d.date); })
-        .y(function(d) { return y(d.price); });
+        .x(function(d) { return x(d.dt); })
+        .y(function(d) { return y(d.AverageTemperature); });
 
     // Adds the svg canvas
     var svg = d3.select("body")
@@ -60,13 +60,16 @@ path {
 
     // Get the data
     d3.csv("4cities.csv", function(error, data) {
+        x.domain(data.map(function(d) {
+            return d.dt;
+        }));
+
         data.forEach(function(d) {
-            d.dt = parseDate(d.dt);
             d.AverageTemperature = +d.AverageTemperature;
         });
 
         // Scale the range of the data
-        x.domain(d3.extent(data, function(d) { return d.dt; }));
+
         y.domain([0, d3.max(data, function(d) { return d.AverageTemperature; })]);
 
         // Nest the entries by symbol

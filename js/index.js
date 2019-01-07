@@ -17,8 +17,8 @@ input.addEventListener("keyup", function(event) {
 var y = d3.scale.linear()
     .range([height, 0]);
 
-var x = d3.scale.ordinal()
-    .rangeRoundBands([0, width], .2);
+//var x = d3.scale.ordinal()
+  //  .rangeRoundBands([0, width], .2);
 
 //
 //var xAxisScale = d3.scale.linear();
@@ -106,10 +106,10 @@ d3.csv("data.csv", type, function(error, data) {
         .text("°Celsius")
         .attr("transform", "translate(15, 40), rotate(-90)")
 
-    svg.append("g")
-        .attr("class", "X axis")
-        .attr("transform", "translate(" + (margin.left - 3.5) + "," + height + ")");
-        //.call(xAxis);
+   // svg.append("g")
+      //  .attr("class", "X axis")
+       // .attr("transform", "translate(" + (margin.left - 3.5) + "," + height + ")")
+       // .call(x);
 
     svg.append("g")
         .attr("class", "x axis")

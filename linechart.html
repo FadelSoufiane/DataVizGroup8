@@ -34,11 +34,11 @@ path {
 
     // Set the dimensions of the canvas / graph
     var margin = {top: 30, right: 20, bottom: 70, left: 50},
-        width = 600 - margin.left - margin.right,
-        height = 300 - margin.top - margin.bottom;
+        width = 1100 - margin.left - margin.right,
+        height = 600 - margin.top - margin.bottom;
 
     // Parse the date / time
-    var parseDate = d3.timeParse("%b %Y");
+   // var parseDate = d3.timeParse("%b %Y");
 
     // Set the ranges
     var x = d3.scaleTime().range([0, width]);
@@ -63,13 +63,13 @@ path {
         x.domain(data.map(function(d) {
             return d.dt;
         }));
-
         data.forEach(function(d) {
+
             d.AverageTemperature = +d.AverageTemperature;
         });
 
         // Scale the range of the data
-
+       // x.domain(d3.extent(data, function(d) { return d.dt; }));
         y.domain([0, d3.max(data, function(d) { return d.AverageTemperature; })]);
 
         // Nest the entries by symbol

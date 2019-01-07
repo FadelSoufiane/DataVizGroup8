@@ -97,10 +97,33 @@
 
 
 <div class="container">
-    <input type="text" placeholder="what is the city you’re looking for ? ">
+
+    <input type="text" id="myInput" placeholder="what is the city you’re looking for ? ">
+    <button id="myBtn" class="btn">.</button>
+
+
+    <script>
+
+    </script>
     <div class="search"></div>
 </div>
 <div id="chart">
+    <h1>Chart Bar </h1>
+    <p>City : </p>
+    <p id="demo"></p>
+    <script>
+        var input2 = document.getElementById("myInput");
+        input.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("myBtn").click();
+                javascript:alert(input.value)
+                document.getElementById("demo").innerHTML=input2.value
+
+            }
+        });
+    </script>
+<h1>Chart Bar of </h1>
 
 </div>
 

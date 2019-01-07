@@ -6,17 +6,24 @@ var margin = {
     },
     width = 920 - margin.left - margin.right,
     height = 400 - margin.top - margin.bottom;
-
+var input = document.getElementById("myInput");
+input.addEventListener("keyup", function(event) {
+    event.preventDefault();
+    if (event.keyCode === 13) {
+        document.getElementById("myBtn").click();
+        javascript:alert(input.value)
+    }
+});
 var y = d3.scale.linear()
     .range([height, 0]);
 
 var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .2);
 
-
-var xAxisScale = d3.scale.linear()
-    .domain([1880, 2015])
-    .range([ 0, width]);
+//
+var xAxisScale = d3.scale.linear();
+//  .domain([1880, 2015])
+//  .range([ 0, width]);
 
 var xAxis = d3.svg.axis()
     .scale(xAxisScale)
@@ -85,8 +92,7 @@ d3.csv("data.csv", type, function(error, data) {
              //alert("Year: " + d.Year + ": " + d.Celsius + " Celsius");
             d3.select("#_yr")
                 .text("Date :   " + d.Year   +"     "  +d.Celsius + "°C" );
-            d3.select()
-                .text("City : " + d.City );
+
 
         });
 

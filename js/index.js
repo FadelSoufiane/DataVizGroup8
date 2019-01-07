@@ -25,10 +25,10 @@ var x = d3.scale.ordinal()
   //.domain([1880, 2015])
   //.range([ 0, width]);
 
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom")
-    ;
+//var xAxis = d3.svg.axis()
+  //  .scale(x)
+    //.orient("bottom")
+    //;
 
 var yAxis = d3.svg.axis()
     .scale(y)
@@ -108,8 +108,8 @@ d3.csv("data.csv", type, function(error, data) {
 
     svg.append("g")
         .attr("class", "X axis")
-        .attr("transform", "translate(" + (margin.left - 3.5) + "," + height + ")")
-        .call(xAxis);
+        .attr("transform", "translate(" + (margin.left - 3.5) + "," + height + ")");
+        //.call(xAxis);
 
     svg.append("g")
         .attr("class", "x axis")

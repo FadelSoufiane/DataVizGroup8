@@ -21,7 +21,7 @@ var x = d3.scale.ordinal()
     .rangeRoundBands([0, width], .2);
 
 //
-var xAxisScale = d3.scale.linear();
+var xAxisScale = d3.scale.linear()
   .domain([1750, 2014])
   .range([ 0, width]);
 

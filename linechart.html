@@ -38,7 +38,7 @@ path {
         height = 600 - margin.top - margin.bottom;
 
     // Parse the date / time
-   // var parseDate = d3.timeParse("%b %Y");
+    var parseDate = d3.timeParse("%b %Y");
 
     // Set the ranges
     var x = d3.scaleTime().range([0, width]);
@@ -59,18 +59,15 @@ path {
             "translate(" + margin.left + "," + margin.top + ")");
 
     // Get the data
-    d3.csv("4cities.csv", function(error, data) {
-        x.domain(data.map(function(d) {
-            return d.dt;
-        }));
+    d3.csv("4pays.csv", function(error, data) {
         data.forEach(function(d) {
-
+            d.dt = parseDate(d.dt);
             d.AverageTemperature = +d.AverageTemperature;
         });
 
         // Scale the range of the data
-       // x.domain(d3.extent(data, function(d) { return d.dt; }));
-        y.domain([0, d3.max(data, function(d) { return d.AverageTemperature; })]);
+        x.domain(d3.extent(data, function(d) { return d.dt; }));
+        y.domain([-30, d3.max(data, function(d) { return d.AverageTemperature; })]);
 
         // Nest the entries by symbol
         var dataNest = d3.nest()

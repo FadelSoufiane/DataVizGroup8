@@ -12,6 +12,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script type="text/javascript" src="js/index.js"></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 		<link rel='stylesheet' href='css/style1.css'>
 
 
@@ -111,8 +113,42 @@ villes dans le monde</h1>
 										<img src="images/pic01.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="barchart.html" class="link">Bar chart</a></h3>
-										<p>decrire bar chart</p>
+										<div id="title">
+    <h1>
+        Global Land Temperature 1750 - 2013
+    </h1>
+    <h2> Hover your cursor over bar to get details</h2>
+</div>
+
+
+<div class="container">
+
+    <input type="text" id="myInput" placeholder="what is the city you’re looking for ? ">
+    <button id="myBtn" class="btn">.</button>
+
+
+    <script>
+    </script>
+    <div class="search"></div>
+</div>
+<div id="chart">
+
+    <h1>Chart Bar </h1>
+    <p>City :</p>
+   <p>Exemple : Paris 1753 1803 1853 1903 1953 2003 2012 2013 years . month per month</p>
+
+    <p id="demo"></p>
+    <script>
+       	var input = document.getElementById("myInput");
+        input.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                document.getElementById("myBtn").click();
+                document.getElementById("demo").innerHTML=input.value
+            }
+        });
+    </script>
+</div>
 									</header>
 								</article>
 								<article>

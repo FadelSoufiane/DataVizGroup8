@@ -1,0 +1,410 @@
+dt,AverageTemperature,AverageTemperatureUncertainty,City,Country,Latitude,Longitude
+Jan 1850,25.803,1.943,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 1860,26.531999999999996,1.372,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Feb 1860,27.19,1.295,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Mar 1860,26.825,1.278,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Apr 1860,27.19,,Abidjan,Côte D'Ivoire,5.63N,3.23W
+May 1860,26.11,1.158,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jun 1860,25.404,1.196,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jul 1860,24.275,1.217,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Aug 1860,23.96,1.2819999999999998,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Sep 1860,24.52,1.175,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Oct 1860,25.158,1.123,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Nov 1860,25.324,1.146,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Dec 1860,24.81,1.329,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 1900,25.695999999999998,1.3259999999999998,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Feb 1900,27.816,0.789,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Mar 1900,28.395,1.296,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Apr 1900,27.706,0.501,Abidjan,Côte D'Ivoire,5.63N,3.23W
+May 1900,26.753,0.458,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jun 1900,25.18,0.733,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jul 1900,24.191999999999997,0.828,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Aug 1900,23.473000000000003,1.209,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Sep 1900,25.127,0.6579999999999999,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Oct 1900,25.962,0.564,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Nov 1900,26.663,1.147,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Dec 1900,26.459,0.918,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 1905,26.603,1.168,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Feb 1905,27.111,0.993,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Mar 1905,28.057,0.79,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Apr 1905,27.514,1.267,Abidjan,Côte D'Ivoire,5.63N,3.23W
+May 1905,25.894000000000002,0.737,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jun 1905,24.452,0.447,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jul 1905,23.755000000000006,0.723,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Aug 1905,23.369,0.573,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Sep 1905,24.36,1.008,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Oct 1905,25.283,1.882,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Nov 1905,25.976,1.486,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Dec 1905,27.023000000000003,0.662,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 1955,26.799000000000003,0.252,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Feb 1955,27.859,0.388,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Mar 1955,27.398000000000003,0.255,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Apr 1955,27.076999999999998,0.2,Abidjan,Côte D'Ivoire,5.63N,3.23W
+May 1955,26.682,0.215,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jun 1955,25.243000000000002,0.249,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jul 1955,24.391,0.171,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Aug 1955,24.035999999999998,0.32,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Sep 1955,24.744,0.112,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Oct 1955,25.572,0.319,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Nov 1955,26.54,0.247,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Dec 1955,25.993,0.231,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 2000,27.293000000000006,0.331,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Feb 2000,27.685,0.267,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Mar 2000,29.061,0.224,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Apr 2000,28.162,0.478,Abidjan,Côte D'Ivoire,5.63N,3.23W
+May 2000,27.547,0.509,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jun 2000,25.812,0.231,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jul 2000,24.87,0.41,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Aug 2000,24.884,0.922,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Sep 2000,25.405,0.956,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Oct 2000,26.074,0.341,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Nov 2000,27.315,0.232,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Dec 2000,26.929,0.331,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 2010,28.270000000000003,0.161,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Feb 2010,29.261999999999997,0.445,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Mar 2010,29.596,0.555,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Apr 2010,29.068,0.28600000000000003,Abidjan,Côte D'Ivoire,5.63N,3.23W
+May 2010,28.258000000000003,0.32299999999999995,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jun 2010,26.683000000000003,0.378,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jul 2010,25.589,0.302,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Aug 2010,25.4,0.252,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Sep 2010,25.71,0.338,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Oct 2010,26.397,0.484,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Nov 2010,27.446,0.25,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Dec 2010,27.666,0.253,Abidjan,Côte D'Ivoire,5.63N,3.23W
+Jan 1850,7.087000000000001,2.513,Los Angeles,United States,34.56N,118.70W
+Feb 1850,8.575,1.848,Los Angeles,United States,34.56N,118.70W
+Mar 1850,10.364999999999998,3.379,Los Angeles,United States,34.56N,118.70W
+Apr 1850,13.735,2.124,Los Angeles,United States,34.56N,118.70W
+May 1850,16.633,1.334,Los Angeles,United States,34.56N,118.70W
+Jun 1850,20.241,1.444,Los Angeles,United States,34.56N,118.70W
+Jul 1850,23.445,1.442,Los Angeles,United States,34.56N,118.70W
+Aug 1850,25.935,2.437,Los Angeles,United States,34.56N,118.70W
+Sep 1850,22.561999999999998,1.93,Los Angeles,United States,34.56N,118.70W
+Oct 1850,17.577,1.318,Los Angeles,United States,34.56N,118.70W
+Nov 1850,10.931,1.936,Los Angeles,United States,34.56N,118.70W
+Dec 1850,6.252999999999999,1.187,Los Angeles,United States,34.56N,118.70W
+Jan 1860,7.709,2.065,Los Angeles,United States,34.56N,118.70W
+Feb 1860,9.315,1.321,Los Angeles,United States,34.56N,118.70W
+Mar 1860,12.124,2.8110000000000004,Los Angeles,United States,34.56N,118.70W
+Apr 1860,13.8,2.23,Los Angeles,United States,34.56N,118.70W
+May 1860,15.764000000000001,3.112,Los Angeles,United States,34.56N,118.70W
+Jun 1860,19.618,3.117,Los Angeles,United States,34.56N,118.70W
+Jul 1860,23.624000000000002,1.422,Los Angeles,United States,34.56N,118.70W
+Aug 1860,24.383000000000006,1.843,Los Angeles,United States,34.56N,118.70W
+Sep 1860,21.05,2.506,Los Angeles,United States,34.56N,118.70W
+Oct 1860,16.245,1.655,Los Angeles,United States,34.56N,118.70W
+Nov 1860,11.681,1.49,Los Angeles,United States,34.56N,118.70W
+Dec 1860,9.619,2.012,Los Angeles,United States,34.56N,118.70W
+Jan 1900,10.292,0.516,Los Angeles,United States,34.56N,118.70W
+Feb 1900,11.318,0.36,Los Angeles,United States,34.56N,118.70W
+Mar 1900,13.928999999999998,0.917,Los Angeles,United States,34.56N,118.70W
+Apr 1900,12.6,0.804,Los Angeles,United States,34.56N,118.70W
+May 1900,17.529,0.415,Los Angeles,United States,34.56N,118.70W
+Jun 1900,20.893,0.792,Los Angeles,United States,34.56N,118.70W
+Jul 1900,23.669,1.137,Los Angeles,United States,34.56N,118.70W
+Aug 1900,21.741,0.6890000000000001,Los Angeles,United States,34.56N,118.70W
+Sep 1900,19.238,0.866,Los Angeles,United States,34.56N,118.70W
+Oct 1900,16.319000000000006,0.6679999999999999,Los Angeles,United States,34.56N,118.70W
+Nov 1900,14.759,0.379,Los Angeles,United States,34.56N,118.70W
+Dec 1900,10.661,0.8740000000000001,Los Angeles,United States,34.56N,118.70W
+Jan 1905,10.932,0.723,Los Angeles,United States,34.56N,118.70W
+Feb 1905,11.15,0.645,Los Angeles,United States,34.56N,118.70W
+Mar 1905,13.0,0.398,Los Angeles,United States,34.56N,118.70W
+Apr 1905,13.911,0.7040000000000001,Los Angeles,United States,34.56N,118.70W
+May 1905,14.805,0.5429999999999999,Los Angeles,United States,34.56N,118.70W
+Jun 1905,18.982,0.667,Los Angeles,United States,34.56N,118.70W
+Jul 1905,22.607,0.44,Los Angeles,United States,34.56N,118.70W
+Aug 1905,22.750999999999998,0.341,Los Angeles,United States,34.56N,118.70W
+Sep 1905,20.615,0.389,Los Angeles,United States,34.56N,118.70W
+Oct 1905,16.509,0.748,Los Angeles,United States,34.56N,118.70W
+Nov 1905,12.124,0.67,Los Angeles,United States,34.56N,118.70W
+Dec 1905,8.867999999999997,1.093,Los Angeles,United States,34.56N,118.70W
+Jan 1955,6.942,0.34700000000000003,Los Angeles,United States,34.56N,118.70W
+Feb 1955,8.794,0.359,Los Angeles,United States,34.56N,118.70W
+Mar 1955,11.984000000000002,0.159,Los Angeles,United States,34.56N,118.70W
+Apr 1955,12.527000000000001,0.4320000000000001,Los Angeles,United States,34.56N,118.70W
+May 1955,15.941,0.299,Los Angeles,United States,34.56N,118.70W
+Jun 1955,19.213,0.378,Los Angeles,United States,34.56N,118.70W
+Jul 1955,22.145,0.273,Los Angeles,United States,34.56N,118.70W
+Aug 1955,24.927000000000003,0.391,Los Angeles,United States,34.56N,118.70W
+Sep 1955,22.413,0.484,Los Angeles,United States,34.56N,118.70W
+Oct 1955,17.137,0.947,Los Angeles,United States,34.56N,118.70W
+Nov 1955,12.265999999999998,0.406,Los Angeles,United States,34.56N,118.70W
+Dec 1955,9.824,1.264,Los Angeles,United States,34.56N,118.70W
+Jan 2000,10.772,0.455,Los Angeles,United States,34.56N,118.70W
+Feb 2000,10.262,0.626,Los Angeles,United States,34.56N,118.70W
+Mar 2000,12.335,0.277,Los Angeles,United States,34.56N,118.70W
+Apr 2000,15.684000000000001,0.34700000000000003,Los Angeles,United States,34.56N,118.70W
+May 2000,19.073,0.317,Los Angeles,United States,34.56N,118.70W
+Jun 2000,22.524,0.406,Los Angeles,United States,34.56N,118.70W
+Jul 2000,23.573,0.477,Los Angeles,United States,34.56N,118.70W
+Aug 2000,25.053,0.506,Los Angeles,United States,34.56N,118.70W
+Sep 2000,21.951,0.397,Los Angeles,United States,34.56N,118.70W
+Oct 2000,15.902999999999999,0.5489999999999999,Los Angeles,United States,34.56N,118.70W
+Nov 2000,10.97,0.257,Los Angeles,United States,34.56N,118.70W
+Dec 2000,11.62,0.718,Los Angeles,United States,34.56N,118.70W
+Jan 2010,10.09,0.24,Los Angeles,United States,34.56N,118.70W
+Feb 2010,10.353,0.32299999999999995,Los Angeles,United States,34.56N,118.70W
+Mar 2010,12.437000000000001,0.362,Los Angeles,United States,34.56N,118.70W
+Apr 2010,12.283,0.335,Los Angeles,United States,34.56N,118.70W
+May 2010,15.895,0.527,Los Angeles,United States,34.56N,118.70W
+Jun 2010,20.724,0.3670000000000001,Los Angeles,United States,34.56N,118.70W
+Jul 2010,23.636,0.551,Los Angeles,United States,34.56N,118.70W
+Aug 2010,23.545,0.276,Los Angeles,United States,34.56N,118.70W
+Sep 2010,22.42,0.481,Los Angeles,United States,34.56N,118.70W
+Oct 2010,16.91,0.495,Los Angeles,United States,34.56N,118.70W
+Nov 2010,12.114,0.181,Los Angeles,United States,34.56N,118.70W
+Dec 2010,10.237,0.244,Los Angeles,United States,34.56N,118.70W
+Jan 1850,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 1850,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 1850,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 1850,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 1850,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 1850,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 1850,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 1850,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 1850,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 1850,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 1850,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 1850,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 1860,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 1860,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 1860,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 1860,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 1860,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 1860,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 1860,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 1860,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 1860,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 1860,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 1860,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 1860,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 1900,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 1900,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 1900,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 1900,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 1900,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 1900,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 1900,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 1900,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 1900,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 1900,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 1900,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 1900,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 1905,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 1905,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 1905,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 1905,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 1905,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 1905,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 1905,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 1905,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 1905,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 1905,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 1905,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 1905,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 1955,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 1955,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 1955,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 1955,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 1955,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 1955,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 1955,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 1955,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 1955,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 1955,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 1955,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 1955,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 2000,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 2000,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 2000,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 2000,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 2000,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 2000,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 2000,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 2000,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 2000,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 2000,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 2000,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 2000,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 2010,-5.348,1.5630000000000002,Toronto,Canada,44.20N,80.50W
+Feb 2010,-6.407,1.414,Toronto,Canada,44.20N,80.50W
+Mar 2010,-3.7569999999999997,3.015,Toronto,Canada,44.20N,80.50W
+Apr 2010,1.6830000000000005,2.007,Toronto,Canada,44.20N,80.50W
+May 2010,9.123,1.177,Toronto,Canada,44.20N,80.50W
+Jun 2010,18.058,1.589,Toronto,Canada,44.20N,80.50W
+Jul 2010,20.324,1.161,Toronto,Canada,44.20N,80.50W
+Aug 2010,18.304,1.074,Toronto,Canada,44.20N,80.50W
+Sep 2010,12.731000000000002,1.241,Toronto,Canada,44.20N,80.50W
+Oct 2010,6.276000000000002,1.842,Toronto,Canada,44.20N,80.50W
+Nov 2010,2.031,1.94,Toronto,Canada,44.20N,80.50W
+Dec 2010,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Jan 1850,-7.652,1.491,Toronto,Canada,44.20N,80.50W
+Feb 1850,,,,,,
+Mar 1850,,,,,,
+Apr 1850,,,,,,
+May 1850,,,,,,
+Jun 1850,,,,,,
+Jul 1850,,,,,,
+Aug 1850,,,,,,
+Sep 1850,,,,,,
+Oct 1850,,,,,,
+Nov 1850,,,,,,
+Dec 1850,,,,,,
+Jan 1860,,,,,,
+Feb 1860,,,,,,
+Mar 1860,,,,,,
+Apr 1860,,,,,,
+May 1860,,,,,,
+Jun 1860,,,,,,
+Jul 1860,,,,,,
+Aug 1860,,,,,,
+Sep 1860,,,,,,
+Oct 1860,,,,,,
+Nov 1860,,,,,,
+Dec 1860,,,,,,
+Jan 1900,,,,,,
+Feb 1900,,,,,,
+Mar 1900,,,,,,
+Apr 1900,,,,,,
+May 1900,,,,,,
+Jun 1900,,,,,,
+Jul 1900,,,,,,
+Aug 1900,,,,,,
+Sep 1900,,,,,,
+Oct 1900,,,,,,
+Nov 1900,,,,,,
+Dec 1900,,,,,,
+Jan 1905,,,,,,
+Feb 1905,,,,,,
+Mar 1905,,,,,,
+Apr 1905,,,,,,
+May 1905,,,,,,
+Jun 1905,,,,,,
+Jul 1905,,,,,,
+Aug 1905,,,,,,
+Sep 1905,,,,,,
+Oct 1905,,,,,,
+Nov 1905,,,,,,
+Dec 1905,,,,,,
+Jan 1955,,,,,,
+Feb 1955,,,,,,
+Mar 1955,,,,,,
+Apr 1955,,,,,,
+May 1955,,,,,,
+Jun 1955,,,,,,
+Jul 1955,,,,,,
+Aug 1955,,,,,,
+Sep 1955,,,,,,
+Oct 1955,,,,,,
+Nov 1955,,,,,,
+Dec 1955,,,,,,
+Jan 2000,,,,,,
+Feb 2000,,,,,,
+Mar 2000,,,,,,
+Apr 2000,,,,,,
+May 2000,,,,,,
+Jun 2000,,,,,,
+Jul 2000,,,,,,
+Aug 2000,,,,,,
+Sep 2000,,,,,,
+Oct 2000,,,,,,
+Nov 2000,,,,,,
+Dec 2000,,,,,,
+Jan 2010,,,,,,
+Feb 2010,,,,,,
+Mar 2010,,,,,,
+Apr 2010,,,,,,
+May 2010,,,,,,
+Jun 2010,,,,,,
+Jul 2010,,,,,,
+Aug 2010,,,,,,
+Sep 2010,,,,,,
+Oct 2010,,,,,,
+Nov 2010,,,,,,
+Dec 2010,,,,,,
+Jan 1850,,,,,,
+Feb 1850,,,,,,
+Mar 1850,,,,,,
+Apr 1850,,,,,,
+May 1850,,,,,,
+Jun 1850,,,,,,
+Jul 1850,,,,,,
+Aug 1850,,,,,,
+Sep 1850,,,,,,
+Oct 1850,,,,,,
+Nov 1850,,,,,,
+Dec 1850,,,,,,
+Jan 1860,,,,,,
+Feb 1860,,,,,,
+Mar 1860,,,,,,
+Apr 1860,,,,,,
+May 1860,,,,,,
+Jun 1860,,,,,,
+Jul 1860,,,,,,
+Aug 1860,,,,,,
+Sep 1860,,,,,,
+Oct 1860,,,,,,
+Nov 1860,,,,,,
+Dec 1860,,,,,,
+Jan 1900,,,,,,
+Feb 1900,,,,,,
+Mar 1900,,,,,,
+Apr 1900,,,,,,
+May 1900,,,,,,
+Jun 1900,,,,,,
+Jul 1900,,,,,,
+Aug 1900,,,,,,
+Sep 1900,,,,,,
+Oct 1900,,,,,,
+Nov 1900,,,,,,
+Dec 1900,,,,,,
+Jan 1905,,,,,,
+Feb 1905,,,,,,
+Mar 1905,,,,,,
+Apr 1905,,,,,,
+May 1905,,,,,,
+Jun 1905,,,,,,
+Jul 1905,,,,,,
+Aug 1905,,,,,,
+Sep 1905,,,,,,
+Oct 1905,,,,,,
+Nov 1905,,,,,,
+Dec 1905,,,,,,
+Jan 1955,,,,,,
+Feb 1955,,,,,,
+Mar 1955,,,,,,
+Apr 1955,,,,,,
+May 1955,,,,,,
+Jun 1955,,,,,,
+Jul 1955,,,,,,
+Aug 1955,,,,,,
+Sep 1955,,,,,,
+Oct 1955,,,,,,
+Nov 1955,,,,,,
+Dec 1955,,,,,,
+Jan 2000,,,,,,
+Feb 2000,,,,,,
+Mar 2000,,,,,,
+Apr 2000,,,,,,
+May 2000,,,,,,
+Jun 2000,,,,,,
+Jul 2000,,,,,,
+Aug 2000,,,,,,
+Sep 2000,,,,,,
+Oct 2000,,,,,,
+Nov 2000,,,,,,
+Dec 2000,,,,,,
+Jan 2010,,,,,,
+Feb 2010,,,,,,
+Mar 2010,,,,,,
+Apr 2010,,,,,,
+May 2010,,,,,,
+Jun 2010,,,,,,
+Jul 2010,,,,,,
+Aug 2010,,,,,,
+Sep 2010,,,,,,
+Oct 2010,,,,,,
+Nov 2010,,,,,,
+Dec 2010,,,,,,

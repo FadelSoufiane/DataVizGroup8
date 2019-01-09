@@ -13,12 +13,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  		<link rel="stylesheet" href="style.css">
 		<script type="text/javascript" src="js/index.js"></script>
 		<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 		<link rel='stylesheet' href='css/style1.css'>
-
-
+		<script src="https://use.fontawesome.com/da4fda81b5.js"></script>
     		<link rel="stylesheet" href="css/style.css">
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js'></script>
+		<script src="index.js"></script>
 
 
     <!-- // <script type="text/javascript" src="../d3.v3.js"></script> -->
@@ -157,8 +161,21 @@ villes dans le monde</h1>
 										<img src="images/pic02.jpg" alt="" />
 									</span>
 									<header class="major">
-										<h3><a href="indexHeatMap.html" class="link">HeatMap</a></h3>
-										<p>Heat map pour visualiser le global warming</p>
+										
+										<h1 id='title'>Global Warming Heat Map</h1>
+
+<div id='graph-explain'>
+  <p>Climate change & global warming is one of the most debated political topics today</p>
+  <h4>But is the planet <b>really</b> warming up?</h4>
+  <p>Lets see what the facts have to say</p>
+</div>
+
+<div id='root'></div>
+
+<div id='graph-explain-bottom'>
+  <p>This is a graph representing global average surface temperatures given in Celcius from the last 300 years.</p>
+</div>
+										
 									</header>
 								</article>
 								<article>

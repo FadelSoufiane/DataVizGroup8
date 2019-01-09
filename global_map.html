@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Température moyenne par pays</title>
+    <link rel="stylesheet" href="css/temperature.css">
+    <!-- // <script type="text/javascript" src="../d3.v3.js"></script> -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <style type="text/css">
+
+        html, body, * {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            font-size: 14px 65%;
+        }
+
+        div#title {
+            width: 880px;
+            margin: 10px auto 0;
+            padding: 5px 20px;
+            background-color: grey;
+            border: 1px solid grey;
+            color: white;
+            box-shadow: 3px 0px 3px lightgrey;
+        }
+
+        h1 {
+            font-family: Georgia, serif;
+            font-size: 1.4em;
+            letter-spacing: 1px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: .8em;
+            font-weight:100;
+            margin: .3em auto;
+        }
+
+        g.infowin text,
+        .axis text {
+            font: 11px sans-serif;
+            fill:grey;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .graticule{
+            fill:none;
+        }
+
+
+    </style>
+</head>
+<body>
+
+
+
+<div id="title">
+    <h1>
+        Température moyenne par pays
+    </h1>
+    <h2></h2>
+</div>
+<div id="map"></div>
+
+<script type="text/javascript" src="js/jsmap.js"></script>
+</body>
+</html>

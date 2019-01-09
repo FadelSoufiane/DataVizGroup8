@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cities Temperatures</title>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script src="d3.tip.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <style>
+
+    body { margin:0;position:fixed;top:0;right:0;bottom:0;left:0; background: #f6f6f6;}
+    svg { width:100%; height: 100% }
+    path {fill:none;color:#fff;}
+    .graticule {
+      fill: none;
+      stroke: #bbb;
+      stroke-width: .5px;
+      stroke-opacity: .5;
+    }
+    html, body, * {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      font-size: 14px 65%;
+    }
+
+    div#title {
+      margin: 10px auto 0;
+      padding: 5px 20px;
+      background-color: grey;
+      border: 1px solid grey;
+      color: white;
+      box-shadow: 3px 0px 3px lightgrey;
+    }
+    div#chart {
+
+      margin: 77px auto 1em;
+
+      border: 1px solid grey;
+      box-shadow: 3px 3px 3px lightgrey;
+      background-color: #e2e2e2;
+    }
+      circle {
+        stroke: #da0000;
+        fill: rgba(0,0, 0, 0.2);
+      }
+
+      circle:hover { 
+        stroke-width: 2px;
+      }
+
+      .d3-tip {
+        font-family: 'Raleway', sans-serif;
+        font-size: 1.5em;
+        line-height: 1;
+        padding: 7px;
+        background: black;
+        color: lightgray;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+
+  <div id="title">
+    <h1>
+      Global Land Temperature by Major Cities         <select id="year">
+      <option value="2013">2013</option>
+      <option value="1750">1750</option>
+    </select>
+    </h1>
+    <h2>  Hover your cursor over the circle to get details
+    </h2>
+  </div>
+
+    <script>
+      
+      var xColumn = "longitude";
+      var yColumn = "latitude";
+      var rColumn = "temperature";
+      var degreesPerPixel = 0.15;
+      
+var width = 960,
+    height = 580;
+
+var projection = d3.geoMercator();
+
+var path = d3.geoPath().projection(projection);
+  
+var graticule = d3.geoGraticule();
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+  
+svg.append("defs").append("path")
+    .datum({type: "Sphere"})
+    .attr("id", "sphere")
+    .attr("d", path);
+
+svg.append("use")
+    .attr("class", "stroke")
+    .attr("xlink:href", "#sphere");
+
+svg.append("use")
+    .attr("class", "fill")
+    .attr("xlink:href", "#sphere");
+
+svg.append("path")
+    .datum(graticule)
+    .attr("class", "graticule")
+    .attr("d", path);
+  
+d3.json("https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba169207548a8a3d670c9c2cc719ff05c47/world-50m.json", function(error, world) {
+  if (error) throw error;
+
+  var countries = topojson.feature(world, world.objects.countries).features,
+      neighbors = topojson.neighbors(world.objects.countries.geometries);
+
+  svg.selectAll(".country")
+      .data(countries)
+    .enter().insert("path", ".graticule")
+      .attr("class", "country")
+      .attr("d", path)
+			.style("fill", "#01d300");
+      
+      
+      
+      
+      var populationFormat = d3.format(",");
+
+      var tip = d3.tip()
+        .attr("class", "d3-tip")
+        .offset([-10, 0])
+        .html(function(d) {
+          return d.name + ": " + populationFormat(d.temperature);
+        });
+
+      svg.call(tip);
+
+      var rScale = d3.scaleSqrt();
+
+      function render(data){
+
+        rScale.domain([0, d3.max(data, function (d){ return d[rColumn]; })]);
+
+        // Compute the size of the biggest circle as a function of degresPerPixel.
+        var peopleMax = rScale.domain()[1];
+        var rMin = 0;
+        var rMax = Math.sqrt(peopleMax / (degreesPerPixel * Math.PI));
+        rScale.range([rMin, rMax]);
+        
+        var circles = svg.selectAll("circle").data(data);
+      circles.enter().append("svg:circle")
+          .attr("cx", function (d){ return projection([d[xColumn],d[yColumn]])[0]; })
+          .attr("cy", function (d){ return projection([d[xColumn],d[yColumn]])[1]; })      
+          .attr("r",  function (d){ return rScale(d[rColumn]); })
+          .on("mouseover", tip.show)
+          .on("mouseout", tip.hide);      
+        circles.exit().remove();
+        
+        
+      }
+
+      function type(d){
+        d.latitude = +d.latitude;
+        d.longitude = +d.longitude;
+        d.temperature = +d.temperature;
+        return d;
+      }
+
+      d3.csv("Cityaverages.csv", type, render);
+
+});
+
+d3.select(self.frameElement).style("height", height + "px");
+
+    
+    </script>
+  </body>

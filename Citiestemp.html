@@ -7,6 +7,18 @@
 body {
   font: 10px sans-serif;
 }
+h1 {
+    font-family: Georgia, serif;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: .8em;
+    font-weight:100;
+    margin: .3em auto;
+}
 body {
     margin: 0px;
     background-color: #ededed;
@@ -87,8 +99,9 @@ div#title {
     <h1>
         Global Land Temperature by Major Cities 1913 - 2013
     </h1>
-    <h2> This line chart shows land temperature in degrees celciusin month per month from 1913.
-    </h2>
+
+    <h3> This line chart shows land temperature in degrees celciusin month per month from 1913.
+    </h3>
 </div>
 
 <script src="http://d3js.org/d3.v3.js"></script>
@@ -362,7 +375,7 @@ d3.tsv("data.tsv", function(error, data) {
   focus.append("text") // http://stackoverflow.com/questions/22064083/d3-js-multi-series-chart-with-y-value-tracking
         .attr("class", "tooltip")
         .attr("x", width + 140) // position tooltips
-        .attr("y", function (d, i) { return (legendSpace)+i*(legendSpace); }); // (return (11.25/2 =) 5.625) + i * (5.625) // position tooltips       
+        .attr("y", function (d, i) { return (legendSpace)+i*(legendSpace); }); // (return (11.25/2 =) 5.625) + i * (5.625) // position tooltips
 
   // Add mouseover events for hover line.
   d3.select("#mouse-tracker") // select chart plot background rect #mouse-tracker

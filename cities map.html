@@ -18,10 +18,22 @@
       stroke-width: .5px;
       stroke-opacity: .5;
     }
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 1.4em;
+      letter-spacing: 1px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: .8em;
+      font-weight:100;
+      margin: .3em auto;
+    }
     html, body, * {
       font-family: Arial, sans-serif;
       text-align: center;
-      font-size: 14px 65%;
+      font-size: 12px 65%;
     }
 
     div#title {
@@ -122,7 +134,7 @@ d3.json("https://gist.githubusercontent.com/mbostock/4090846/raw/d534aba16920754
     .enter().insert("path", ".graticule")
       .attr("class", "country")
       .attr("d", path)
-			.style("fill", "#01d300");
+			.style("fill", "#001773");
       
       
       

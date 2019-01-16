@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.16/d3.min.js"></script>
+<style>
+
+#chart-container {
+  padding: 100px;
+}
+
+.horizontal-bar {
+  fill: #98D5F2;
+}
+
+</style>
+</head>
+
+<body>
+<div id="chart-container"></div>
+
+</body>
+
+<script>
+
+d3.csv("DataTemp.csv", function(error, csv_data) {
+ var data = d3.nest()
+  .key(function(d) { return d.Country;})
+  .rollup(function(d) {
+   return d3.mean(d, function(g) {return g.AverageTemperature; });
+  }).entries(csv_data);
+
+  data.sort(function(x, y){
+     return d3.ascending(x.values, y.values);
+  })
+
+var maxValue = 725156;
+
+var chartHeight = data.length * 50;
+
+var chartWidth = 600;
+var barWidth = 250;
+var nameWidth = 125;
+
+var chart = d3.select('#chart-container')
+              .attr('class', 'horizontal-bar')
+              .append('svg')
+              .attr('width', chartWidth)
+              .attr('height', chartHeight)
+
+console.log(data)
+chart.selectAll('rect')
+     .data(data)
+     .enter()
+     .append('rect')
+        .attr('x', nameWidth)
+        .attr('y', function(d, i) { return i * 50 + 10; })
+        .attr('width', 0)
+        .attr('height', 10)
+        .attr('rx', 5)
+        .attr('ry', 5)
+     .transition()
+        .duration(600)
+        .attr('width', function(d) { return (d.values*30000 / maxValue) * barWidth; })
+
+chart.selectAll('text.labels')
+     .data(data)
+     .enter()
+     .append('text')
+       .attr('x', 0)
+       .attr('y', function(d, i) { return i * 50 + 20; })
+       .attr('width', nameWidth)
+       .attr('height', 15)
+       .text(function(d) { return d.key });
+
+chart.selectAll('text.values')
+     .data(data)
+     .enter()
+     .append('text')
+       .attr('x', nameWidth)
+       .attr('y', function(d, i) { return (i * 50) + 20; })
+       .attr('width', 100)
+       .attr('height', 15)
+       .text(function(d) { return d3.format(',f')(d.values) })
+     .transition()
+       .duration(600)
+       .attr('x', function(d) { return ((d.values*30000 / maxValue) * barWidth ) + nameWidth + 10; })
+});
+</script>

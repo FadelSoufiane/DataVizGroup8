@@ -1,9 +1,9 @@
-const width = 800, height = 800;
+const width = 550, height = 550;
 
 const projection = d3.geoOrthographic()
-    .scale(350)
+    .scale(200)
     .translate([width / 2, height / 2])
-    .clipAngle(90) // without this options countries on the other side are visible
+    .clipAngle(90) 
     .precision(.1)
     .rotate([0,0,0]);
 
@@ -28,7 +28,7 @@ d3.json("json/world-countries.json", function(collection) {
         .enter().append("path")
         .attr("d", path)
         .attr("class", "country")
-        .attr("id", function(d) {return d.id;});
+        .attr("class", function(d) {return d.id;});
 
     d3.csv("csv/world-temperature(2013).csv", function(data) {
         var quantile = d3.scale.quantile().domain([
@@ -40,7 +40,7 @@ d3.json("json/world-countries.json", function(collection) {
             .attr('transform', 'translate(35, 10)')
             .attr('id', 'legend');
 
-        legend.selectAll('.colorbar') // LIGNE 11
+       legend.selectAll('.colorbar')
             .data(d3.range(60))
             .enter().append('rect')
             .attr('y', function(d) { return d * 5 + 'px'; })
@@ -58,7 +58,7 @@ d3.json("json/world-countries.json", function(collection) {
             .call(d3.axisLeft(legendScale).ticks(10));
 
         data.forEach(function(e,i) {
-            d3.select("#" + e.country) // LIGNE 29
+            d3.select("." + e.country) 
                 .attr("class", function(d) { return "country temperature-" + quantile(+e.temperature); });
         });
     });

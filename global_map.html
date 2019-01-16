@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Température moyenne par pays</title>
+    <title>Temperature Visualization</title>
     <link rel="stylesheet" href="css/temperature.css">
     <!-- // <script type="text/javascript" src="../d3.v3.js"></script> -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
@@ -15,7 +15,10 @@
             text-align: center;
             font-size: 14px 65%;
         }
+body{
 
+    background-color: #fbf9ff;
+}
         div#title {
             width: 880px;
             margin: 10px auto 0;
@@ -57,24 +60,34 @@
         }
 
 
+        #map {
+            float: left;
+        }
+
+        #map2 {
+            float: right;
+        }
+
+
+        #tictac{
+            text-align: center;
+            float: left;
+            height: 400px;
+            width: 400px;
+        }
+
+
     </style>
 </head>
 <body>
 
+<div>
 
-
-<div id="title">
-    <h1>
-        Température moyenne par pays
-        <select id="year">
-            <option value="2013">2013</option>
-            <option value="1750">1750</option>
-    </select>
-    </h1>
-    <h2></h2>
+    <div id="map"><p>2013</p></p></div>
+    <div id="map2"><p>1750</p></div>
 </div>
-<div id="map"></div>
 
 <script type="text/javascript" src="js/jsmap.js"></script>
+<script type="text/javascript" src="js/carte_cloro.js"></script>
 </body>
 </html>

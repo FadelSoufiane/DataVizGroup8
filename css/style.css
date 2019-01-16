@@ -1,8 +1,3 @@
-body {
-    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
-    font-size: 14px;
-}
-
 .bar {
     border: 1px solid #0b3536;
     border-radius: 6px;
@@ -18,6 +13,3 @@ body {
     fill: #0b3536;
 }
 
-#viz svg {
-    background-color: #f5faf8;
-}

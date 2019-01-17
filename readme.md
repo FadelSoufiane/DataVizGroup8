@@ -1,5 +1,5 @@
 
-les resources utilisées :
+les ressources utilisées :
 
 - https://codepen.io
 - https://d3js.org/

@@ -268,7 +268,7 @@ d3.csv("datasea.csv", type, function(error, data) {
       .attr("dy", "0.71em")
       .attr('font-size', '14px')
       .attr("fill", "#000000")
-      .text("Global Mean Sea Level in mm and temperature in C");
+      .text("       y= Global Mean Sea Level in mm and temperature in C and co2 in atmosphere ppm*10");
 
   var band = g.selectAll(".band")
     .data(bands)
@@ -339,7 +339,7 @@ d3.csv("datasea.csv", type, function(error, data) {
       .text("Date : " + toolTime(d.date));
     d3.select("#tooltip")
       .select("#value")
-      .html('<span id="box" class="legendTitle">Niveau de la mer(Global Mean Sea Level in mm)</span><div id="boxSpacer">' + abbreviateNum(d.SeaLevel) + '</div>    ' + '<span id="box" class="legendRGB">Temperature</span><div id="boxSpacer">' + abbreviateNum(d.Temp) + '</div>    ' + '<span id="box" class="legendNIR">Co2</span>' + abbreviateNum(d.Co2) + 'parts per million (ppm)');
+      .html('<span id="box" class="legendTitle">(Global Mean Sea Level in mm)</span><div id="boxSpacer">' + (d.SeaLevel) + '</div>    ' + '<span id="box" class="legendRGB">Temperature</span><div id="boxSpacer">' + (d.Temp) + '</div>    ' + '<span id="box" class="legendNIR">Co2</span>' + (d.Co2) + 'parts per million (ppm*10)');
     //Show the tooltip
     d3.select("#tooltip").classed("hidden", false);
   }

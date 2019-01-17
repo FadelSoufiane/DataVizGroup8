@@ -1,7 +1,7 @@
 //URL for data to be pulled from, define arrays and variables to be used
 var ajaxUrl = 'https://raw.githubusercontent.com/FadelSoufiane/DataVizGroup8/master/dataCl.json',
     mydata, yearsArray = [], yearStringArray = [], tempArray = [];
-var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+var months = ['Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septembre', 'Octobre', 'Novembre', 'Decembre'];
 
 //upon ajax request being done, run code to set up graph
 function runningData() {
@@ -47,7 +47,7 @@ function runningData() {
                 .attr('transform', 'translate(' + (w/2 - 150) + ', 15)');
 
   legend.append('text')
-    .text('Cooler Temps -')
+    .text('Temps froid -')
     .attr('y', 12);
 
   legend.append('rect')
@@ -58,7 +58,7 @@ function runningData() {
     .attr('y', 0);
 
   legend.append('text')
-    .text('Hotter Temps -')
+    .text('Temps chaud -')
     .attr('x', 185)
     .attr('y', 12);
 
@@ -96,7 +96,7 @@ function runningData() {
     .attr('x', 150/2)
     .attr('y', 24)
     .style('fill', '#f2f2f2')
-    .text('Click to see');
+    .text('Cliquez pour démarrer');
 
   //populate left side with months
   mapSvg.selectAll('text.y-axis')

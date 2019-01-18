@@ -8,7 +8,7 @@ Cette étude donne un aperçu du changement climatique que subi notre planète m
 
 
 
-# *------------------------------------------EN-----------------------------------------------*
+          *----------------------------------------------------------------------------*
                       
                       
 * This project consists of visualizations whose primary purpose is to describe the variation of average temperatures from 1750 to 2013 in the major cities of the world. The data provided for each city are: date, average temperature of each month, Latitude and Longitude. Attention was also paid to the different countries and the world in general.
@@ -31,4 +31,4 @@ This study gives an overview of the climate change suffered by our planet but al
 - https://datahub.io/core/sea-level-rise?fbclid=IwAR2I-XzCLE5RuUivPurS9DY896C5wluUUmOfNKOr5D4YYz1GecPdnn_SSDM#data
 
 ## 
-(https://image.noelshack.com/fichiers/2019/03/5/1547852181-map.jpg)
+![Image](https://image.noelshack.com/fichiers/2019/03/5/1547852181-map.jpg)

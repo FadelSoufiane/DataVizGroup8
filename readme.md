@@ -18,10 +18,13 @@ This study gives an overview of the climate change suffered by our planet but al
 
 
 ## les ressources utilisées :
-- https://codepen.io
+
 - https://d3js.org/
-- https://medium.freecodecamp.org
-- https://www.datavis.fr/
+- https://www.datavis.fr/index.php?page=map-world-temperature
+- https://blockbuilder.org/vicapow/9496218
+- https://github.com/jpmcb/D3-Global-Warming-Heat-Map
+- https://gist.github.com/davidylam/18e79ff92456970c4d5ca229404296aa
+
 ### - Les Données des temperatures par grande ville par mois (et moyenne de toute la terre)de 1750-2013 :
 - https://data.world/data-society/global-climate-change-data/workspace/file?filename=GlobalLandTemperatures%2FGlobalTemperatures.csvt
 - https://data.world/data-society/global-climate-change-data/workspace/file?filename=GlobalLandTemperatures%2FGlobalLandTemperaturesByMajorCity.csvt
